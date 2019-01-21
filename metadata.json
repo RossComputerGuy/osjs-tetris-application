@@ -1,0 +1,16 @@
+{
+  "type": "application",
+  "name": "Tetris",
+  "category": "games",
+  "server": null,
+  "title": {
+    "en_EN": "Tetris"
+  },
+  "description": {
+    "en_EN": "Tetris"
+  },
+  "files": [
+    "main.js",
+    "main.css"
+  ]
+}

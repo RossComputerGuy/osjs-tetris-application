@@ -1,0 +1,18 @@
+.Window_Tetris {
+  .game-root {
+    height: 480px;
+    margin-bottom: 8px;
+    width: 240px;
+  }
+  .game-root > div.filled {
+    background-color: gray;
+  }
+  .game-root > div {
+    background-color: lightgray;
+    border: 1px solid white;
+    box-sizing: border-box;
+    float: left;
+    height: 24px;
+    width: 24px;
+  }
+}
