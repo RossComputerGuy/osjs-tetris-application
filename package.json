@@ -19,6 +19,7 @@
     "@babel/preset-env": "^7.2.3",
     "@babel/runtime": "^7.2.0",
     "babel-loader": "^8.0.5",
+    "copy-webpack-plugin": "^4.6.0",
     "css-loader": "^2.1.0",
     "eslint": "^5.12.1",
     "mini-css-extract-plugin": "^0.5.0",
@@ -33,5 +34,23 @@
   },
   "osjs": {
     "type": "package"
-  }
+  },
+  "description": "A simple tetris game for OS.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpaceboyRoss01/osjs-tetris-application.git"
+  },
+  "keywords": [
+    "osjs",
+    "os.js",
+    "tetris"
+  ],
+  "author": "Spaceboy Ross",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpaceboyRoss01/osjs-tetris-application/issues"
+  },
+  "homepage": "https://github.com/SpaceboyRoss01/osjs-tetris-application#readme"
 }

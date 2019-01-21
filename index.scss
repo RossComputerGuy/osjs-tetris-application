@@ -1,18 +1,34 @@
 .Window_Tetris {
   .game-root {
-    height: 480px;
-    margin-bottom: 8px;
-    width: 240px;
+    height: 500px;
+    margin: 0 auto;
+    outline: 3px solid #061006;
+    width: 250px;
+  }
+  .game-root > div:before {
+    background-color: #63796c;
+    border: 3px solid #758c7a;
+    bottom: 3px;
+    content: ' ';
+    left: 3px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+  }
+  .game-root > div.filled:before {
+    background-color: #061006;
+    border-color: #758c7a;
   }
   .game-root > div.filled {
-    background-color: gray;
+    background-color: #061006;
   }
   .game-root > div {
-    background-color: lightgray;
-    border: 1px solid white;
+    background-color: #63796c;
+    border: 1px solid #758c7a;
     box-sizing: border-box;
     float: left;
-    height: 24px;
-    width: 24px;
+    height: 25px;
+    position: relative;
+    width: 25px;
   }
 }
