@@ -5,7 +5,8 @@
     outline: 3px solid #061006;
     width: 250px;
   }
-  .game-root > div:before {
+
+  .game-root > div::before {
     background-color: #63796c;
     border: 3px solid #758c7a;
     bottom: 3px;
@@ -15,13 +16,16 @@
     right: 3px;
     top: 3px;
   }
-  .game-root > div.filled:before {
+
+  .game-root > div.filled::before {
     background-color: #061006;
     border-color: #758c7a;
   }
+
   .game-root > div.filled {
     background-color: #061006;
   }
+
   .game-root > div {
     background-color: #63796c;
     border: 1px solid #758c7a;
